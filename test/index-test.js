@@ -41,9 +41,6 @@ describe('logWhisper(string)', function() {
   })
 })
 
-function logWhisper(specialwords) {
-  console.log(specialwords.toLowerCase())
-}
 
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
@@ -58,12 +55,3 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
-
-function sayHiToGrandma(billy) {
-  if (sayHiToGrandma(billy).toUpperCase === uppercase)
-   { return "YES INDEED";}
-
-  else (sayHiToGrandma(billy) === "I love you, Grandma.")
-  {  return "I love you, too.";} 
-  else  if (sayHiToGrandma(billy))
-  
