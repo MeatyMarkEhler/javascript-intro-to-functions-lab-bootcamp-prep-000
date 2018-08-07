@@ -6,3 +6,9 @@ function whisper(string) {
   return (string).toLowerCase()
 }
 
+
+
+
+function logWhisper(string) {
+  console.log({specialwords.toLowerCase())
+}
